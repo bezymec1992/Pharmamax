@@ -71,6 +71,15 @@
     flex-direction: column;
     gap: 9px;
 
+
+    .list__item {
+      transition: all 0.3s;
+
+      &:hover {
+        transform: translateX(-10px);
+      }
+    }
+
     @media (max-width: 767px) {
       justify-content: center;
       align-items: center;
@@ -79,7 +88,7 @@
     }
   }
 
-  .list__item a {
+  .link {
     font-size: 24px;
     font-weight: 300;
   }

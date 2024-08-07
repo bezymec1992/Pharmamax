@@ -211,6 +211,14 @@ ul li {
           flex-direction: column;
   gap: 9px;
 }
+.header .list__items .list__item {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.header .list__items .list__item:hover {
+  -webkit-transform: translateX(-10px);
+          transform: translateX(-10px);
+}
 @media (max-width: 767px) {
   .header .list__items {
     -webkit-box-pack: center;
@@ -226,7 +234,7 @@ ul li {
     gap: 25px;
   }
 }
-.header .list__item a {
+.header .link {
   font-size: 24px;
   font-weight: 300;
 }
