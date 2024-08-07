@@ -1,0 +1,60 @@
+.trade {
+  @media (max-width: 767px) {
+    padding-bottom: 30px;
+  }
+
+
+  .trade__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+    @media (max-width: 992px) {
+      flex-direction: column;
+    }
+  }
+
+  .trade__title {
+    font-size: 85px;
+    margin-bottom: 12px;
+    color: #424242;
+
+    @media (max-width: 767px) {
+      font-size: 35px;
+    }
+  }
+
+  .trade__txt {
+    font-size: 28px;
+    color: #525252;
+    max-width: 782px;
+    letter-spacing: 0.64px;
+    font-weight: 300;
+
+    @media (max-width: 767px) {
+      font-size: 18px;
+    }
+  }
+
+  .trade__img-wrap {
+    padding: 31px;
+    border-radius: 50%;
+    border: 1px solid black;
+
+    @media (max-width: 767px) {
+      border: unset;
+      padding: unset;
+    }
+
+    .trade__img {
+      width: 353px;
+      height: 353px;
+
+      @media (max-width: 767px) {
+        width: 253px;
+        height: 253px;
+      }
+    }
+  }
+}

@@ -1,0 +1,117 @@
+.connect {
+  padding-bottom: 100px;
+
+  @media (max-width: 767px) {
+    padding-bottom: 40px;
+  }
+
+  .connect__title {
+    color: #424242;
+    font-size: 85px;
+    margin-bottom: 37px;
+    margin-top: 30px;
+
+    @media (max-width: 767px) {
+      font-size: 35px;
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+  }
+
+  .connect__wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .connect__person {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .connect__img {
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid #2B2A29;
+
+    img {
+      width: 173px;
+      height: 173px;
+
+      @media (max-width: 767px) {
+        width: 123px;
+        height: 123px;
+      }
+    }
+  }
+
+  .connect__info {
+    .connect__link {
+      background-color: #2B2A29;
+      padding: 5px;
+      border-radius: 33px;
+      height: 59px;
+      width: 187px;
+      display: flex;
+      justify-content: space-between;
+
+      @media (max-width: 767px) {
+        width: 140px;
+      }
+
+
+      .connect__link-txt {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 30px;
+        font-size: 32px;
+        color: white;
+        letter-spacing: 0.94px;
+
+        @media (max-width: 767px) {
+          font-size: 20px;
+          padding-left: 15px;
+        }
+
+      }
+
+      .connect__img-wrap {
+        background-color: white;
+        width: 49px;
+        height: 49px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          width: 16px;
+          height: 16px;
+        }
+      }
+    }
+
+    .connect__txt {
+      padding-top: 27px;
+      font-size: 32px;
+      letter-spacing: 0.94px;
+
+      @media (max-width: 767px) {
+        font-size: 18px;
+        padding-top: 15px;
+      }
+
+      span {
+        color: #525252;
+      }
+
+      .connect__position {
+        display: block;
+      }
+    }
+  }
+}

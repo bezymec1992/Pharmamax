@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/products.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container__main">
+      <div class="header__container container">
+        <a href="#" class="header__logo">
+          <img class="header__img" src="/img/logo.png" alt="logo">
+        </a>
+        <div class="burger">
+          <button class="open-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+
+        <div class="header__wrapper">
+          <ul class="list__items">
+            <li class="list__item"><a class="link" href="about.html">ABOUT AS</a></li>
+            <li class="list__item"><a class="link active__link" href="products.html">PRODUCTS</a></li>
+            <li class="list__item"><a class="link" href="contacts.html">CONTACTS</a></li>
+          </ul>
+          <div class="header__language">
+            <button class="btn-language">LV</button>
+            <button class="btn-language">RU</button>
+            <button class="btn-language active__language">EN</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="products">
+    <div class="container">
+      <div class="products__wrapper">
+        <div class="product__info">
+          <h1 class="product__title">PRODUCTS</h1>
+          <p class="product__txt product__txt1">
+            Please note, SIA "Pharmamax" wholesaler is not allowed to supply medicines directly to patients. Patients
+            can receive medicines only
+            in pharmacies, previously having consulted a doctor or a pharmacists.
+          </p>
+          <p class="product__txt">
+            Published prices - are wholesale prices at which medicines are sold to pharmacies and other legal entities
+            who have a right to bulk purchases
+            of medicines.
+          </p>
+        </div>
+        <form action="#" class="products__form">
+          <p class="form__txt">Enter the complete and exact product name</p>
+          <div class="form__input-wrapper">
+            <img src="img/search-btn.svg" alt="search">
+            <input class="input" type="text">
+          </div>
+          <div class="form__btn-wrapper">
+            <button type="submit" class="btn btn-search">search</button>
+            <button type="reset" class="btn btn-cancel">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

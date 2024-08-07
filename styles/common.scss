@@ -1,0 +1,43 @@
+.container-big {
+  max-width: 1627px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.container__main {
+  width: 100%;
+  position: relative;
+}
+
+.container {
+  max-width: 1308px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container__connect {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.active__link {
+  color: #358EB9;
+}
+
+.active__language {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+  }
+}

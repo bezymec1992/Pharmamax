@@ -1,0 +1,137 @@
+.accordions {
+  padding-bottom: 30px;
+
+  .accordion__title {
+    font-size: 85px;
+    color: #424242;
+    margin-bottom: 32px;
+    margin-top: 32px;
+
+    @media (max-width: 767px) {
+      font-size: 35px;
+      margin-top: 0;
+      margin-bottom: 25px;
+    }
+  }
+}
+
+.accordion {
+  background-color: rgb(244, 243, 243);
+  color: #525252;
+  cursor: pointer;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  font-size: 32px;
+  transition: all 0.4s ease-out;
+  border: 1px solid rgb(223, 221, 223);
+
+  @media (max-width: 767px) {
+    font-size: 18px;
+  }
+
+  .accordion__img {
+    width: 104px;
+    height: 104px;
+    border-radius: 50%;
+
+    @media (max-width: 767px) {
+      display: none;
+    }
+  }
+}
+
+.accordion__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.accordion__img-wrap {
+  background-color: #2B2A29;
+  width: 80px;
+  height: 40px;
+  border-radius: 33px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media (max-width: 767px) {
+    width: 50px;
+    height: 30px;
+  }
+
+  .accordion__arrow {
+    transition: all 0.5s;
+    width: 17px;
+    height: 10px;
+  }
+}
+
+.active {
+  .accordion__arrow {
+    transform: rotate(180deg);
+  }
+}
+
+.accord__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  max-width: 530px;
+  width: 100%;
+
+  p {
+    color: #525252;
+
+    @media (max-width: 767px) {
+      font-weight: 300;
+    }
+  }
+
+  @media (max-width: 767px) {
+    max-width: fit-content;
+  }
+}
+
+.accordion__number {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #434242;
+  color: #434242;
+
+  @media (max-width: 767px) {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+.accordion-content {
+  padding: 0 1rem;
+  background-color: white;
+  color: #aaa;
+  max-height: 0;
+  overflow: hidden;
+  max-width: 1308px;
+  margin: 0 auto;
+  transition: max-height 0.2s ease-out;
+
+  p {
+    font-weight: 300;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    max-width: 900px;
+    font-size: 28px;
+
+    @media (max-width: 767px) {
+      font-size: 18px;
+    }
+  }
+}

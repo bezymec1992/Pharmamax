@@ -1,0 +1,145 @@
+@import 'resets.scss';
+@import 'common.scss';
+@import 'header.scss';
+
+.contact {
+  padding: 95px 0;
+  background: url("../img/product-bg.jpg") no-repeat center center;
+  background-size: cover;
+
+  @media (max-width: 992px) {
+    padding: 30px 0;
+  }
+
+  .container__contact {
+    max-width: 1460px;
+  }
+
+  .contact__title {
+    font-size: 80px;
+    color: white;
+    margin-bottom: 48px;
+
+    @media (max-width: 992px) {
+      margin-bottom: 25px;
+      font-size: 40px;
+    }
+  }
+
+  .contact__subtitle {
+    font-size: 40px;
+    color: white;
+
+    @media (max-width: 1400px) {
+      margin-bottom: 10px;
+    }
+
+    @media (max-width: 767px) {
+      text-align: center;
+      font-size: 30px;
+
+      .br {
+        display: none;
+      }
+    }
+  }
+
+  .contact__wrapper-big {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: 1400px) {
+      justify-content: center;
+      align-items: unset;
+      gap: 50px;
+    }
+
+    @media (max-width: 767px) {
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+
+  .contact__wrapper {
+    display: flex;
+    gap: 30px;
+    position: relative;
+
+    @media (max-width: 1400px) {
+      flex-direction: column;
+      gap: 13px;
+    }
+
+    @media (max-width: 767px) {
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+
+  .contact__wrapper:last-child::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: -50px;
+    width: 1px;
+    height: 100%;
+    background-color: white;
+
+    @media (max-width: 1400px) {
+      left: -25px;
+    }
+  }
+
+  .contact__info-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    max-width: 325px;
+    width: 100%;
+
+    @media (max-width: 767px) {
+      margin: 0 auto;
+    }
+  }
+
+  .contact__info {
+    display: flex;
+    align-items: center;
+
+    .contact__deteils {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 40px;
+      border: 1px solid #adcfe1;
+      background-color: rgba(49, 127, 174, 0.4);
+      color: white;
+      font-size: 20px;
+      font-weight: 300;
+      margin-right: 16px;
+      width: 180px;
+      height: 37px;
+
+      @media (max-width: 767px) {
+        font-size: 18px;
+        width: 170px;
+      }
+    }
+
+    .contact__name {
+      display: flex;
+      flex-wrap: wrap;
+      color: white;
+      font-size: 20px;
+      font-weight: 300;
+      max-width: 125px;
+      word-break: break-all;
+
+      @media (max-width: 767px) {
+        font-size: 18px;
+        width: 140px;
+      }
+    }
+  }
+}
