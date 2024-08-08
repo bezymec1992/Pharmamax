@@ -1,5 +1,6 @@
 const buttons = document.querySelectorAll('.btn-language');
 const accordions = document.querySelectorAll(".accordion");
+const burger = document.querySelector(".burger");
 
 //language btn active
 buttons.forEach(button => {
@@ -24,7 +25,6 @@ for(item of accordions) {
 }
 
 //burger add class for open
-const burger = document.querySelector(".burger");
 burger.addEventListener('click', function() {
   document.body.classList.toggle("open")
   burger.classList.toggle("menu-opened");
