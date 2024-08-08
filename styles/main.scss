@@ -6,16 +6,10 @@ main {
   }
 
   .img-wrapper {
-    min-height: 610px;
-
-    @media (max-width: 1308px) {
-      min-height: unset;
-    }
+    text-align: right;
 
     .main-img {
-      position: absolute;
-      top: 0;
-      right: 0;
+      max-width: 1485px;
       width: 100%;
       height: auto;
 
