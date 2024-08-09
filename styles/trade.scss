@@ -3,7 +3,6 @@
     padding-bottom: 30px;
   }
 
-
   .trade__container {
     display: flex;
     justify-content: space-between;
@@ -42,14 +41,15 @@
     border-radius: 50%;
     border: 1px solid black;
 
+
     @media (max-width: 767px) {
       border: unset;
       padding: unset;
     }
 
     .trade__img {
-      width: 353px;
-      height: 353px;
+      width: 364px;
+      height: 364px;
 
       @media (max-width: 767px) {
         width: 253px;
