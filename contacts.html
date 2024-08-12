@@ -102,8 +102,12 @@
   </section>
 
   <section class="map">
-    <iframe width="100%" height="500"
-      src="https://www.openstreetmap.org/export/embed.html?bbox=20.956420898437504%2C55.643499093841854%2C27.152709960937504%2C58.162010297029816&amp;layer=mapnik&amp;marker=56.92399477907075%2C24.0545654296875"></iframe>
+    <div class="map__wrapper">
+      <iframe id="mapIframe" width="100%" height="100%"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=20.956420898437504%2C55.643499093841854%2C27.152709960937504%2C58.162010297029816&amp;layer=mapnik&amp;marker=56.92399477907075%2C24.0545654296875"
+        style="pointer-events: none;"></iframe>
+      <div id="overlay"></div>
+    </div>
   </section>
 
   <script src="script.js"></script>
