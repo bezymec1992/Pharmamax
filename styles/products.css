@@ -501,3 +501,60 @@ body.open .header__wrapper {
     padding: 5px 24px;
   }
 }
+
+.result {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.result .container {
+  max-width: 800px;
+}
+.result .result__title {
+  text-align: center;
+  font-size: 48px;
+  color: rgb(66, 139, 179);
+  padding-bottom: 20px;
+}
+@media (max-width: 768px) {
+  .result .result__title {
+    font-size: 26px;
+  }
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  font-size: 20px;
+}
+@media (max-width: 768px) {
+  th,
+  td {
+    font-size: 14px;
+    font-weight: 300;
+  }
+}
+
+tr:not(:last-child) {
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: rgb(232, 247, 255);
+  color: rgb(66, 139, 179);
+  font-size: 24px;
+}
+@media (max-width: 768px) {
+  th {
+    font-size: 14px;
+  }
+}
+
+tr:hover {
+  background-color: rgb(236, 236, 236);
+}
