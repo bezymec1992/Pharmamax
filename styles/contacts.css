@@ -1,12 +1,7 @@
 @font-face {
   font-family: Teko;
   font-weight: 400;
-  src: url("../fonts/Teko-Regular.woff2");
-}
-@font-face {
-  font-family: Teko;
-  font-weight: 300;
-  src: url("../fonts/Teko-Light.woff2");
+  src: url("../fonts/Teko Regular.woff2");
 }
 /*resets*/
 * {

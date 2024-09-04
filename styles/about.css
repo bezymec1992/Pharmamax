@@ -1,12 +1,7 @@
 @font-face {
   font-family: Teko;
   font-weight: 400;
-  src: url("../fonts/Teko-Regular.woff2");
-}
-@font-face {
-  font-family: Teko;
-  font-weight: 300;
-  src: url("../fonts/Teko-Light.woff2");
+  src: url("../fonts/Teko Regular.woff2");
 }
 /*resets*/
 * {
@@ -535,6 +530,7 @@ main .main__subtitle {
 .accord__wrapper p {
   color: #525252;
   font-size: 30px;
+  font-weight: 400;
 }
 @media (max-width: 767px) {
   .accord__wrapper p {

@@ -2,14 +2,14 @@
 @font-face {
   font-family: Teko;
   font-weight: 400;
-  src: url('../fonts/Teko-Regular.woff2');
+  src: url('../fonts/Teko Regular.woff2');
 }
 
-@font-face {
-  font-family: Teko;
-  font-weight: 300;
-  src: url('../fonts/Teko-Light.woff2');
-}
+// @font-face {
+//   font-family: Teko;
+//   font-weight: 300;
+//   src: url('../fonts/Teko-Light.woff2');
+// }
 
 /*resets*/
 * {
@@ -17,11 +17,14 @@
   margin: 0;
   border: 0;
   font-family: "Teko", sans-serif;
-  //font-family: "Roboto Condensed", sans-serif;
   font-display: swap;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
+
+
+
+
 }
 
 *,
