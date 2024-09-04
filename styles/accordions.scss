@@ -81,14 +81,16 @@
   display: flex;
   align-items: center;
   gap: 35px;
-  max-width: 530px;
+  max-width: 580px;
   width: 100%;
 
   p {
     color: #525252;
+    font-size: 30px;
 
     @media (max-width: 767px) {
       font-weight: 300;
+      font-size: 18px;
     }
   }
 

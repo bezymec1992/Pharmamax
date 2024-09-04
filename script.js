@@ -11,18 +11,17 @@ buttons.forEach(button => {
 });
 
 //accordions
-for(item of accordions) {
-    item.addEventListener("click", function () {
-        this.classList.toggle("active");
-        let panel = this.nextElementSibling;
-        console.log(this.nextElementSibling)
-        if (panel.style.maxHeight) {
-            panel.style.maxHeight = null;
-        } else {
-            panel.style.maxHeight = panel.scrollHeight + "px";
-        }
-    })
-}
+accordions.forEach((item) => {
+  item.addEventListener("click", function () {
+      this.classList.toggle("active");
+      const panel = this.nextElementSibling;
+      if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+      } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+      }
+  });
+});
 
 //burger add class for open
 burger.addEventListener('click', function() {
