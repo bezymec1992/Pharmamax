@@ -13,6 +13,8 @@
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
+  -webkit-text-fill-color: black;
 }
 
 *,
@@ -269,6 +271,7 @@ ul li {
   font-size: 34px;
   background-color: #2B2A29;
   color: rgb(255, 255, 255);
+  -webkit-text-fill-color: white;
 }
 @media (max-width: 767px) {
   .header__language .btn-language {
@@ -371,6 +374,10 @@ body.open .header__wrapper {
   padding: 95px 0;
   background: url("../img/product-bg.jpg") no-repeat center center;
   background-size: cover;
+}
+.products * {
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.3);
 }
 @media (max-width: 992px) {
   .products {

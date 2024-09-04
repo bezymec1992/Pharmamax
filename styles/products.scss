@@ -3,6 +3,11 @@
 @import 'header.scss';
 
 .products {
+  * {
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.3);
+  }
+
   padding: 95px 0;
   background: url("../img/product-bg.jpg") no-repeat center center;
   background-size: cover;
@@ -12,6 +17,7 @@
   }
 
   .products__wrapper {
+
     display: flex;
     justify-content: space-between;
     align-items: center;
